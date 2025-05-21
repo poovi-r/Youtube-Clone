@@ -1,0 +1,24 @@
+body{
+font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.layout-container {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  grid-template-rows: 56px 1fr;
+  grid-template-areas: 
+  "header header"
+  "sidebar main";
+  height: 100vh;
+}
+
